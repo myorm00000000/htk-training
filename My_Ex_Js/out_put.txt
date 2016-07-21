@@ -1,0 +1,39 @@
+* Cach 1:
+
+<input type="button" id="clickme" value="Click Me"/>
+<script language="javascript">
+ 
+// Lấy element có id=clickme lưu vào biến button
+var button = document.getElementById('clickme');
+ 
+// Khi click vào element chứa trong button thì thực hiện một function, 
+// bên trong function thông báo lên Hello World!
+button.addEventListener('click', function(){
+    alert('Hello World!');
+});
+</script>
+
+Cach 2:
+<input type="button" onclick="alert('Hello world')" value="Click Me"/>
+
+
+Out_put with Option_ Yes- No
+  <script language="javascript">
+      confirm("Do you like freetuts.net");
+  </script>
+
+---------
+Lay gia tri user nhap vao:
+  var t = prompt("Nhập tên của bạn", '');
+  alert(t);
+
+input + vong lap while
+  while (value < 1 || value > 10){
+    value = prompt("Nhập vào số từ 1 -> 10");
+  }
+
+
+arr_a = [1,2,3]
+document.write(arr_a + "</br>");
+document.write(arr_a.join("") + "</br>");
+document.write(arr_a.join("-"));
